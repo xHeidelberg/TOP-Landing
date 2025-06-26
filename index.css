@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation */
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    padding: 22px;
+}
+
+.navigation h2 {
+    color: azure;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+}
+
+.nav-right {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+.nav-right a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 8px 14px;
+    transition: 0.5s;
+    border: none;
+}
+.nav-right a:hover {
+    color: #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+/* content one */
+.content-one {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32vh;
+    border-radius: 0 0 0 180px;
+}
+
+.one-left {
+    color: #eee;
+    margin: 0 0 0 16vh;
+    padding-right: 10px;
+    
+}
+.one-right {
+    margin: 0 1vh 0 0;
+}
+
+.one-left h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.one-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 1.5rem 1rem 1.5rem 0;
+}
+
+.one-right img {
+    display: flex;
+    height: 230px;
+    width: 580px;
+    border-radius: 55px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.one-right img:hover {
+    transform: scale(1.1);
+}
+
+
+.button {
+    background-color: #3882F6;
+    padding: 6px 84px;
+    border-radius: 13px;
+    border: 1px solid #3882F6;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: transparent;
+    color: white;
+}
+
+/* content two */
+.divider {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.divider h2 {
+    font-size: 36px;
+}
+.content-two {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10rem;
+    gap: 32px;
+    
+}
+
+.content-two h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 6vh;
+    padding-bottom: 32px;
+}
+
+.content-two img {
+    height: 100px;
+    width: 100px;
+}
+.content-two .card {
+    max-width: 300px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.content-two .card:hover {
+    transform: scale(1.1);
+}
+
+
+/* content three */
+
+.content-three {
+    display: flex;
+    justify-content: center;
+}
+
+/* content four */
+
+
+/* footer */
+
+footer {
+    background-color: brown;
+
+}
