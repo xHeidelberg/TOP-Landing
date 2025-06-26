@@ -159,9 +159,10 @@ body {
 .content-two img {
     height: 100px;
     width: 100px;
+    cursor: pointer;
 }
 
-.content-two .card {
+.card {
     max-width: 300px;
     transition: 0.5s;
     cursor: pointer;
@@ -169,6 +170,10 @@ body {
     border-radius: 5px;
     border: 1px transparent;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card p {
+    cursor: pointer;
 }
 
 .content-two .card:hover {
@@ -182,10 +187,14 @@ body {
     margin: 0 5rem;
     border-radius: 13px;
     display: flex;
-
     justify-content: center;
     background-color: #E5E7EB;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    transition: 0.5s;
+}
+
+.content-three:hover {
+    box-shadow: rgba(17, 17, 26, 0.329) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+
 }
 
 .three-message {
@@ -207,20 +216,55 @@ body {
     font-weight: 600;
 }
 
+.three-rate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 33px;
+    margin-bottom: 10px;
+}
+
+.checked {
+    margin: 6px;
+    color: orange
+}
+
 /* content four */
 .content-four {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10rem;
+
 }
+
+.four {
+    color: white;
+    margin-right: 9rem;
+}
+
+.four p {
+    font-size: 18px;
+}
+
+.four #four-bold {
+    font-weight: 900;
+    font-size: 28px;
+}
+
 .action-four {
     display: flex;
-    padding: 3.5rem 9rem;
+    padding: 5rem 9rem;
     gap: 4rem;
     background-color: #3882F6;
     border-radius: 10px;
+    transition: 0.5s;
 }
+
+.action-four:hover {
+    padding: 5rem 14rem;
+}
+
 .button-four {
     display: flex;
     justify-content: center;
@@ -234,6 +278,7 @@ body {
     cursor: pointer;
     transition: 0.5s;
 }
+
 .button-four:hover {
     color: #3882F6;
     background-color: white;
@@ -243,6 +288,56 @@ body {
 /* footer */
 
 footer {
-    background-color: brown;
+    background-color: #1f2937;
+    color: #b3b3b3;
+    padding: 10vh;
+    display: flex;
+    flex-direction: row;
+}
 
+.foot.right #foot-par {
+    margin-top: 10px;
+    width: 300px;
+}
+
+.foot.right {
+    padding: 1rem;
+}
+
+.foot.left {
+    display: flex;
+    flex: 1;
+    gap: 32px;
+    border-left: 1px solid gray;
+    padding-left: 13px;
+    justify-content: flex-end;
+}
+.foot.down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.foot.down a {
+    color: #b3b3b3;
+    font-size: 27px;
+    transition: 0.5s;
+}
+.foot.down a:hover {
+    font-size: 30px;
+    color: #eee;
+}
+
+.foot.left ul {
+    list-style: none;
+}
+
+.foot.left ul li {
+    margin: 12px;
+}
+
+.foot.left ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
 }
