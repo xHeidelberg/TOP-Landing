@@ -319,13 +319,13 @@ footer {
     margin-top: 2rem;
     gap: 1rem;
 }
-.foot.down a {
-    color: #b3b3b3;
+.foot.down a i {
+    color: #a1a1a1;
     font-size: 27px;
     transition: 0.5s;
+    cursor: pointer;
 }
-.foot.down a:hover {
-    font-size: 30px;
+.foot.down a i:hover {
     color: #eee;
 }
 
@@ -340,4 +340,10 @@ footer {
 .foot.left ul li a {
     color: #b3b3b3;
     text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.foot.left ul li a:hover {
+    color: #eee;
 }
